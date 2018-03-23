@@ -1,0 +1,62 @@
+<PISI>
+    <Source>
+        <Name>ruby-http-cookie</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - http-cookie</Summary>
+        <Description xml:lang="en">HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today&apos;s major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today&apos;s major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-http-cookie</Name>
+        <Summary xml:lang="en">RubyGem - http-cookie</Summary>
+        <Description xml:lang="en">HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today&apos;s major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today&apos;s major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/http-cookie.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http-cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie/ruby_compat.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie/scanner.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie_jar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/abstract_saver.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/abstract_store.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/cookiestxt_saver.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/hash_store.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/mozilla_store.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/yaml_saver.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/test/mechanize.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/test/simplecov_start.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/test/test_http_cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/http-cookie-1.0.3/test/test_http_cookie_jar.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/http-cookie-1.0.3.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>1.0.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

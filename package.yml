@@ -1,0 +1,16 @@
+name       : ruby-http-cookie
+version    : 1.0.3
+release    : 1
+source     :
+    - https://rubygems.org/downloads/http-cookie-1.0.3.gem : 2f11269d817bc52ab2af2721e89a377660a961078de2a3a55fc696d7897e8c00
+license    : MIT
+component  : programming.ruby
+summary    : RubyGem - http-cookie
+description: |
+    HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today's major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today's major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby-domain_name
+install    : |
+    %gem_install
