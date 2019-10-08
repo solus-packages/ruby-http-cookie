@@ -10,7 +10,7 @@
         <Summary xml:lang="en">RubyGem - http-cookie</Summary>
         <Description xml:lang="en">HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today&apos;s major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265. It has with security, standards compliance and compatibility in mind, to behave just the same as today&apos;s major web browsers. It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>ruby-http-cookie</Name>
@@ -51,8 +51,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-12-26</Date>
+        <Update release="3">
+            <Date>2019-10-07</Date>
             <Version>1.0.3</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
